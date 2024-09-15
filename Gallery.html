@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gallery</title>
+	<link rel="shortcut icon" href="3D Objects/assets/logo1.ico">
+	<link rel="stylesheet" type="text/css" href="3D Objects/css/style.css" />
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+	
+    <style>
+		model-viewer{
+            width: 100%;
+            height: 100vh;
+            margin:  0 auto;
+            margin-top: 10px;
+            
+        }
+        
+        *{box-sizing: border-box; -webkit-box-sizing: border-box}
+        html { 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        }
+        body{
+        width: 100%;
+        min-height: 100%;
+        overflow: hidden;	
+        }
+        .wrap{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        -webkit-perspective: 2500px;
+        perspective: 2500px;    
+        -webkit-perspective-origin: 100% 50%;
+        perspective-origin: 100% 50%;
+            .girl {
+                margin-left: 0;
+                width: 600px;
+                height: 600px;
+                bottom: 0%;
+                top: 10px;
+                position: absolute;
+            }
+            h1{
+                left: -5%;
+                transform: rotate(-49deg);
+                color: #3d39399a;
+                font-size: 80px;
+                font-family: Raleway, sans-serif;
+                top: 25%;
+                position: absolute;
+                mix-blend-mode:saturation;
+            }
+        .list{
+            width: 80%;
+            height: 150vh;
+            overflow-x: hidden;
+            webkit-transform: rotateX(35deg) rotateY(3deg) rotateZ(27deg);
+            transform: rotateX(35deg) rotateY(3deg) rotateZ(27deg);
+            margin: 0 0 0 200px;
+            padding: 150px 100px 500px 0;
+            scrollbar-width: none;
+            &::-webkit-scrollbar { 
+            display: none; 
+            }
+            &::-webkit-scrollbar { 
+            display: none; 
+            }
+            &::-webkit-scrollbar { 
+            display: block; 
+            }
+        .item{
+            
+                    filter: grayscale(10%);
+            width: 30%;
+            height: 400px;
+            margin: 20px;
+            display: inline-block;
+            position: relative;
+            &::after {
+            content: '';
+            position: absolute;
+            z-index: 150;
+            width: 100%;
+                top: 0px;
+                left: -0px;
+            height: 100%;
+            background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3960c8e1-d90e-4e60-8522-816b41b93892/d84vq6v-5985a860-c6c3-453c-a0ae-e80e5e5abf06.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM5NjBjOGUxLWQ5MGUtNGU2MC04NTIyLTgxNmI0MWI5Mzg5MlwvZDg0dnE2di01OTg1YTg2MC1jNmMzLTQ1M2MtYTBhZS1lODBlNWU1YWJmMDYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.G2ljZtN3fPs4NhvF-fCGxl_97BA4w8kvt_qGyJH1RNI");
+            opacity: .1;
+        }
+            .img{
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+                background-position: center center;
+                box-shadow: 1px 1px 50px 0 #1b1b1b;
+                -webkit-transform-origin: 100% 50%;
+                -ms-transform-origin: 100% 50%;
+                transform-origin: 100% 50%;
+                z-index: 10;
+                position: relative;
+                
+                    }
+                }
+        }
+        }
+        button{
+            border: 2px solid black;
+            padding: 10px;
+            z-index:9999;
+            top:-300px;
+            position: relative;
+            display: inline;
+            margin-left:-60px;
+            outline: none;
+        }
+       
+
+    </style>
+    
+</head>
+<body class="bodyIndex">
+    <div class="bg"></div>
+    <div class="frame">
+        <div class="frame__title-wrap">
+                <h1 class="frame__title">C:\ZAIREN V. LAPID\GALLERY\SUNSETS</h1>
+        </div>
+        <div class="frame__links">
+            <a href="index.html">HOME</a>
+            <a href="AboutMe.html">ABOUT ME</a>
+            <a href="Interests.html">INTERESTS</a>
+        </div>
+    </div>
+
+    <div class="wrap">
+        <div class="girl">
+            <model-viewer src="/3D Objects/assets/canon_at-1_retro_camera/scene.gltf"  auto-rotate rotation-per-second="-40deg" max-field-of-view="100 deg">
+            </model-viewer>
+        </div>
+        <h1><marquee>SUNSETS BY ZAI</marquee></h1>
+      <div class="list">
+        <div class="item">
+            <div class="img" style="background-image: url('3d objects/assets/gallery img/1.jpg')"></div>
+        </div>
+            <button>1</button>		
+        <div class="item">
+            <div class="img" style="background-image: url('3d objects/assets/gallery img/2.jpg')"></div>
+        </div>
+            <button>2</button>
+        <div class="item">
+            <div class="img" style="background-image: url('3d objects/assets/gallery img/3.jpg')"></div>
+        </div>
+            <button>3</button>		
+        <div class="item">
+            <div class="img" style="background-image: url('3d objects/assets/gallery img/4.png')"></div>
+        </div>
+            <button>4</button>		
+        <div class="item">
+            <div class="img" style="background-image: url('3d objects/assets/gallery img/5.png')"></div>
+        </div>
+            <button>5</button>		
+        <div class="item">
+            <div class="img" style="background-image: url('3d objects/assets/gallery img/6.png')"></div>
+        </div>
+            <button>6</button>		
+        <div class="item">
+            <div class="img" style="background-image: url('3d objects/assets/gallery img/7.png')"></div>
+        </div>
+            <button>7</button>		
+        <div class="item">
+            <div class="img" style="background-image: url('3d objects/assets/gallery img/8.png')"></div>
+            </div>
+            <button>8</button>		
+        <div class="item">
+            <div class="img" style="background-image: url('3d objects/assets/gallery img/9.png')"></div>
+        </div>
+            <button>9</button>		
+        <div class="item">
+            <div class="img" style="background-image: url('3d objects/assets/gallery img/10.png')"></div>
+        </div>
+            <button>10</button>		
+        <div class="item">
+            <div class="img" style="background-image: url('3d objects/assets/gallery img/11.png')"></div>
+        </div>
+            <button>11</button>		
+        <div class="item">
+            <div class="img" style="background-image: url('3d objects/assets/gallery img/12.png')"></div>
+        </div>
+            <button>12</button>		
+      </div>
+    </div>
+    
+
+    <footer>
+        <div class="frame">
+            <p>&copy; 2024 All rights reserved.</p>
+			<p>CIT14- WEB TECHNOLOGIES</p>
+        </div>
+    </footer>
+    
+
+</body>
+</html>
