@@ -1,0 +1,11 @@
+Model Information:
+* title:	Deconstructing Rupaul
+* source:	https://sketchfab.com/3d-models/deconstructing-rupaul-aa6272e862f9450e85fbce94bc8cf87c
+* author:	laurynsiegel (https://sketchfab.com/laurynsiegel)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Deconstructing Rupaul" (https://sketchfab.com/3d-models/deconstructing-rupaul-aa6272e862f9450e85fbce94bc8cf87c) by laurynsiegel (https://sketchfab.com/laurynsiegel) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
