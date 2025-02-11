@@ -378,8 +378,8 @@ button {
 
 .profile-picture img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: auto;
+    height: 500px;
     border: 1px dashed #999;
 }
 
